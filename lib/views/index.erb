@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View</title>
+</head>
+<body>
+  <h1>Hb values</h1>
+  <% @data.each do |item| %>
+    <p> Date: <%= item['date'] %> 
+        Result: <%= item['result'] %>
+    </p>
+    <% end %>
+</body>
+</html>
